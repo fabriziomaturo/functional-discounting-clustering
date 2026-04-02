@@ -44,7 +44,7 @@ These variables are used as standard covariates.
 
 ### Behavioural Investor Type (BIT) scores
 
-- `Artigiano (Craftsman)`
+- `Artigiano (Artisan)`
 - `Idealista (Idealist)`
 - `Guardiano (Guardian)`
 - `Razionale (Rational)`
