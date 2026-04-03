@@ -101,12 +101,11 @@ These functional observations constitute the main object of analysis in the pape
 ### Additional derived variables
 
 The dataset also includes additional columns such as:
-
-- `I_f(90)`  
-- `H(0.5,500,12)`  
-- `H(0.5,50,1)`  
-- `H(0.1,50,1)`  
-- `GUADAGNO (Gain)`  
+H(0,6,500,12)
+H(0,6,50,12)
+H(0,1,50,1)
+H(0,6,-500,12)
+H(0,6,-500,12) GUADAGNO (Gain)
 
 These variables are derived indicators related to discounting behaviour or payoff measures.
 
