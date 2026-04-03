@@ -6,6 +6,7 @@
 The paper Functional Clustering of Discount Functions for Behavioural Investor Profiling is currently in press at Applied Stochastic Models in Business and Industry. This repository contains the full, reproducible pipeline used in the article, including data preprocessing, functional representation, clustering procedures, and all figures reported in the manuscript.
 
 Authors: 
+
 Fabrizio Maturo - Department of Economics, Statistics and Business, Universitas Mercatorum, Rome, Italy. fabrizio.maturo@unimercatorum.it
 
 Annamaria Porreca - Department for the Promotion of Human Science and Quality of Life, San Raffaele University, Rome, Italy. Unit of Clinical and Molecular Epidemiology IRCCS San Raffaele Roma, Rome, Italy.
