@@ -556,13 +556,6 @@ cat(" - selected_nbasis\n")
 
 
 
-
-
-
-
-
-
-
 ###############################################################################
 ################ MONOTONE SMOOTHING OF DISCOUNT FUNCTIONS #####################
 ###############################################################################
@@ -2431,12 +2424,11 @@ bootstrap_elastic_cluster_bands <- function(curve_matrix,
     
     k <- k_values[j]
     
-    # curve del cluster k (non allineate, solo per dimensioni)
+    # k cluster curves (not aligned)
     Yk <- curve_matrix[labels == k, , drop = FALSE]
     nk <- nrow(Yk)
     
-    # 👉 QUI LA COSA IMPORTANTE:
-    # uso le curve GIÀ ALLINEATE da fdasrvf
+       # I use curves ALREADY ALIGNED by fdasrvf
     fk <- extract_aligned_cluster_curves(fit_object, k)  # M x nk
     
     if (is.null(fk)) {
@@ -2450,7 +2442,7 @@ bootstrap_elastic_cluster_bands <- function(curve_matrix,
     for (b in 1:B) {
       idx <- sample(1:nk, size = nk, replace = TRUE)
       
-      # 👉 MEDIA SOLO SU CURVE ALLINEATE
+      # AVERAGE ONLY ON ALIGNED CURVES
       boot_centroids[b, ] <- rowMeans(fk[, idx, drop = FALSE])
     }
     
