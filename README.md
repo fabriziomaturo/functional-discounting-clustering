@@ -1,13 +1,34 @@
 # Functional Clustering of Discount Functions for Behavioural Investor Profiling
 
+
 ## Overview
 
-This repository contains the full reproducible R pipeline associated
-with the paper.
+The paper Functional Clustering of Discount Functions for Behavioural Investor Profiling is currently in press at Applied Stochastic Models in Business and Industry. This repository contains the full, reproducible pipeline used in the article, including data preprocessing, functional representation, clustering procedures, and all figures reported in the manuscript.
 
-The analysis applies Functional Data Analysis (FDA) to model
-intertemporal discounting behaviour and identify behavioural investor
-types via functional clustering.
+Authors: 
+Fabrizio Maturo - Department of Economics, Statistics and Business, Universitas Mercatorum, Rome, Italy. fabrizio.maturo@unimercatorum.it
+
+Annamaria Porreca - Department for the Promotion of Human Science and Quality of Life, San Raffaele University, Rome, Italy
+Unit of Clinical and Molecular Epidemiology IRCCS San Raffaele Roma, Rome, Italy.
+Department of Mathematics and Physics, University of Campania Luigi Vanvitelli, Caserta, Italy
+
+Viviana Ventre - Department of Mathematics and Physics, University of Campania Luigi Vanvitelli, Caserta, Italy
+ 
+Roberta Martino - Department of Economics, Statistics and Business, Universitas Mercatorum, Rome, Italy. 
+
+Salvador Cruz Rambaud - Department of Economics and Business, University of Almeria, Almeria, Spain.
+
+## Summary
+
+The study proposes a fully data-driven framework for modelling intertemporal discounting behaviour, starting from experimentally elicited choices collected through a structured questionnaire in which respondents express indifference between present and delayed monetary amounts across multiple time horizons. These responses are used to reconstruct individual discount factors, yielding discrete observations of each subject’s discount trajectory over time.
+
+To ensure behavioural and economic coherence, the observed discount functions are transformed into smooth and strictly monotone decreasing curves through constrained smoothing techniques. This step is essential to enforce theoretical consistency with discounting principles, eliminate irregularities due to measurement noise, and obtain functional representations suitable for subsequent analysis.
+
+Within this functional framework, each individual trajectory is treated as a continuous object, allowing the application of Functional Data Analysis methods that preserve the temporal ordering and shape characteristics of preferences. This representation enables the extraction of higher-order features, such as derivatives, which provide additional information on the speed and curvature of discounting behaviour.
+
+The core methodological contribution lies in the use of functional clustering techniques to identify latent behavioural structures. In particular, functional k-means is applied both globally and conditionally. The global clustering captures the main sources of heterogeneity across the entire sample, while the conditional functional clustering, performed within Behavioural Investor Type categories, allows the identification of sub-profiles that refine and extend the classical BIT taxonomy.
+
+This dual clustering strategy reveals that traditional behavioural classifications are not homogeneous, but rather contain internally differentiated patterns of temporal preferences. By combining monotone smoothing, functional representation, and conditional clustering, the analysis uncovers nuanced behavioural profiles that would remain hidden under standard discrete or cross-sectional approaches.
 
 ## Repository Structure
 
