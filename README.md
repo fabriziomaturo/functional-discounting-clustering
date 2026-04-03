@@ -8,9 +8,7 @@ The paper Functional Clustering of Discount Functions for Behavioural Investor P
 Authors: 
 Fabrizio Maturo - Department of Economics, Statistics and Business, Universitas Mercatorum, Rome, Italy. fabrizio.maturo@unimercatorum.it
 
-Annamaria Porreca - Department for the Promotion of Human Science and Quality of Life, San Raffaele University, Rome, Italy
-Unit of Clinical and Molecular Epidemiology IRCCS San Raffaele Roma, Rome, Italy.
-Department of Mathematics and Physics, University of Campania Luigi Vanvitelli, Caserta, Italy
+Annamaria Porreca - Department for the Promotion of Human Science and Quality of Life, San Raffaele University, Rome, Italy. Unit of Clinical and Molecular Epidemiology IRCCS San Raffaele Roma, Rome, Italy.
 
 Viviana Ventre - Department of Mathematics and Physics, University of Campania Luigi Vanvitelli, Caserta, Italy
  
